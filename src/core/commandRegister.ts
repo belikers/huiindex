@@ -16,13 +16,10 @@ import pingCommand from "./commands/pingCommand";
 import hintCommand from "./commands/terminal/config/hintCommand";
 import todoCommand from "./commands/todo/todoCommand";
 import musicCommand from "./commands/relax/music/musicCommand";
-import ddosCommand from "./commands/ddos/ddosCommand";
 import moyuCommand from "./commands/relax/moyu/moyuCommand";
 import shortcutCommand from "./commands/terminal/shortcut/shortcutCommand";
-import ikunCommand from "./commands/relax/ikun/ikunCommand";
 import welcomeCommand from "./commands/terminal/config/welcomeCommand";
 import hotCommand from "./commands/hot/hotCommand";
-import ikuntestCommand from "./commands/relax/ikuntest/ikuntestCommand";
 import varbookCommand from "./commands/varbook/varbookCommand";
 
 /**
@@ -46,10 +43,7 @@ const commandList: CommandType[] = [
   infoCommand,
   pingCommand,
   musicCommand,
-  ddosCommand,
   moyuCommand,
-  ikunCommand,
-  ikuntestCommand,
   welcomeCommand,
   backgroundCommand,
   resetCommand,

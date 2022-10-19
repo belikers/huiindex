@@ -1,7 +1,7 @@
 <template>
   <div>关于本站：HuiIndex</div>
   <div>
-    <a href="https://github.com/liyupi/yuindex" target="_blank">
+    <a href="https://github.com/remohjh/huiindex" target="_blank">
       代码开源，欢迎 star 和贡献~
     </a>
   </div>
