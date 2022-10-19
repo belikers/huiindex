@@ -1,6 +1,6 @@
 {
-  "name": "yuindex",
-  "description": "极客范儿的浏览器主页",
+  "name": "huiindex",
+  "description": "huiIndex",
   "private": true,
   "version": "0.0.0",
   "scripts": {

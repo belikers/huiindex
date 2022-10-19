@@ -405,7 +405,7 @@ onMounted(() => {
     });
   } else {
     terminal.writeTextOutput(
-      `Welcome to YuIndex, coolest browser index for geeks!` +
+      `Welcome to HuiIndex, coolest browser index for geeks!` +
         `<a href="//github.com/liyupi/yuindex" target='_blank'> GitHub Open Source</a>`
     );
     terminal.writeTextOutput(
