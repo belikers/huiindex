@@ -1,23 +1,14 @@
-# YuIndex - 极客范儿的浏览器主页
-
-> Coolest browser index for geeks! 
-> 
-> 前后端全栈项目 By [程序员鱼皮](https://docs.qq.com/doc/DUFFRVWladXVjeUxW)
+# HuiIndex
 
 
-
-在线体验：[https://yuindex.com](https://yuindex.com)
-
-视频演示：[https://www.bilibili.com/video/BV19B4y1Y7m8/](https://www.bilibili.com/video/BV19B4y1Y7m8/)
-
-![YuIndex 定制你的最强主页](./doc/assets/docpic1.png)
-
-![YuIndex 用命令来控制网页](./doc/assets/docpic2.png)
-
-⭐️ 我在自己的 [编程知识星球](https://yupi.icu) 内花 4 个小时直播给大家详细解读了这个项目的创作思路 + 技术选型 + 系统设计 + 源码解读 + 思路扩展 + 简历亮点分享，如果你希望把这个项目写到简历上、或者深入学习，[欢迎加入我的星球观看](https://yupi.icu/%E6%98%9F%E7%90%83%E9%A1%B9%E7%9B%AE/Web%20%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE.html) 。
+> 前后端全栈项目 By hjh
 
 
-## YuIndex 是什么？
+
+参考视频：[https://www.bilibili.com/video/BV19B4y1Y7m8/](https://www.bilibili.com/video/BV19B4y1Y7m8/)
+
+
+## HuiIndex 是什么？
 
 一个很特别的浏览器主页，支持使用输入命令的方式来操作，目标是帮你在一个 web 终端中高效完成所有的事情！（all in one）
 
