@@ -1,9 +1,10 @@
 # HuiIndex
 
 
-> 前后端全栈项目 By hjh
+> 前后端全栈项目 后期优化拓展：hjh
 
 
+原作者：yupi
 
 参考视频：[https://www.bilibili.com/video/BV19B4y1Y7m8/](https://www.bilibili.com/video/BV19B4y1Y7m8/)
 
@@ -24,13 +25,14 @@
 - 新增了csdn搜索
 - 新增了ip查询命令
 - 新增了天气命令
+- 新增修改命令行文字颜色的命令
 
 ### 1 分钟上手使用
 
 然后在网站内依次输入以下命令：
 
 ```bash
-baidu 1
+baidu 温州科技职业学院
 github huiindex
 goto baidu.com
 todo
