@@ -11,6 +11,8 @@ export const useTerminalConfigStore = defineStore("terminalConfig", {
     background: "black",
     // 输入提示
     showHint: true,
+    // 普通文本颜色
+    fontColor: "white",
     // 终端欢迎语
     welcomeTexts: [] as string[],
   }),
@@ -32,6 +34,11 @@ export const useTerminalConfigStore = defineStore("terminalConfig", {
         return;
       }
       this.background = url;
+    },
+    setFontColor(color: string) {
+      // 判断颜色是否在颜色表内
+
+      this.fontColor = color;
     },
     /**
      * 设置或反转提示

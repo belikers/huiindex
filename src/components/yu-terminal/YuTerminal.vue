@@ -432,6 +432,9 @@ defineExpose({
 </script>
 
 <style scoped>
+.command-input {
+  color: v-bind("configStore.$state.fontColor");
+}
 .yu-terminal-wrapper {
   background: black;
 }
@@ -471,11 +474,11 @@ defineExpose({
 }
 
 .command-input {
-  caret-color: white;
+  caret-color: v-bind("configStore.$state.fontColor");
 }
 
 .command-input :deep(input) {
-  color: white !important;
+  color: v-bind("configStore.$state.fontColor") !important;
   font-size: 16px;
   padding: 0 10px;
 }
