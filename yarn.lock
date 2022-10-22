@@ -110,6 +110,87 @@
     core-js "^3.15.1"
     nanopop "^2.1.0"
 
+"@tanbo/bezier@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/@tanbo/bezier/-/bezier-1.0.1.tgz#935e15dce80dc7fa01fd663bd4b0513557bd582d"
+  integrity sha512-o63Ul3M4WIcGhvpiIUOZfP378AsT+UzkaGPYr78g8J4vu8AVYH8KqghgVXBb2uybIK8vdtFdJs21EKdQyrDHow==
+
+"@tanbo/color-picker@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.npmmirror.com/@tanbo/color-picker/-/color-picker-0.1.4.tgz#1c1e5ec5fae331b712c989e5528ebe61801cd9c6"
+  integrity sha512-PA6uoiTEDCDGwSm370YppjSbBikxJ8kwjIoGtnxpLaztJeu6+RZSnp3BoM2w59YTQ6/ROjwMQ9vXW73mKUlYBw==
+
+"@tanbo/color@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.npmmirror.com/@tanbo/color/-/color-0.1.1.tgz#e30c7b27a4c178da4b995e83b22e83dccf76b1fb"
+  integrity sha512-at2A3rju+rl7bayn62k6sp05bSrRPKOu/L5HefuF6VNeZtu3670mnggFh1xKa+rsVacAiVYM8f2WTtwBBohPgg==
+
+"@tanbo/css-themes@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.npmmirror.com/@tanbo/css-themes/-/css-themes-0.0.1.tgz#b72927cfbf75cb68799e9ea20791cd14d37c01a3"
+  integrity sha512-0OKxDNskmWshWWgFgHAmgKEwBpX+JbYtNPIoImeQWeoAm1KRoONPGMGNccZJr++XLZYF1lAkgzGg2uV1JfvjmQ==
+
+"@tanbo/di@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.npmmirror.com/@tanbo/di/-/di-1.1.3.tgz#b5a07e900dc9acf55c6d317e8b6be535517e72fa"
+  integrity sha512-/RbUHQQRcAgSlc81HZBcLAQOk8hxrEq4/1PQutksGahTVmaw9SDtrWwWCQ7KRIzsFrFFxqM6KD8QN97tO4LUtQ==
+  dependencies:
+    reflect-metadata "^0.1.13"
+
+"@tanbo/stream@^1.1.8":
+  version "1.1.8"
+  resolved "https://registry.npmmirror.com/@tanbo/stream/-/stream-1.1.8.tgz#ad5987508d29d63eb62f854d2c16e92a13f94630"
+  integrity sha512-NeEedFTwFlYT56Nqq2qmqSYVTgeORX9J+IRJUzZwlVPMnN8zUWUp3AfCKQUHGYsEx13dcIGM7A9WOj2QLfz5+g==
+
+"@textbus/browser@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npmmirror.com/@textbus/browser/-/browser-2.2.0.tgz#e71bd3732c30990357a515004548f4a65853ec8b"
+  integrity sha512-OygyaJtXEyIoW2a3zn4X39LhMbGvBJM4Hj/+JWL7eEIsH9HhkJSVYUYYMKKNTkENR2dFawlpIodm3W4pD3IZew==
+  dependencies:
+    "@tanbo/di" "^1.1.3"
+    "@tanbo/stream" "^1.1.8"
+    "@textbus/core" "^2.2.0"
+    reflect-metadata "^0.1.13"
+
+"@textbus/collaborate@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npmmirror.com/@textbus/collaborate/-/collaborate-2.2.0.tgz#86b611fbaa5e3d022728848b380500f7d6ca53aa"
+  integrity sha512-aHEbeCQeYstemh/Q9xxlC3Poc3tuPdOSLaPJRwWJ5AKgPT2dLAokNLMbxaFeykka1IM4xGb77b7EdIm4nOKaCQ==
+  dependencies:
+    "@tanbo/di" "^1.1.3"
+    "@tanbo/stream" "^1.1.8"
+    "@textbus/browser" "^2.2.0"
+    "@textbus/core" "^2.2.0"
+    reflect-metadata "^0.1.13"
+    y-protocols "^1.0.5"
+    yjs "^13.5.39"
+
+"@textbus/core@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npmmirror.com/@textbus/core/-/core-2.2.0.tgz#ee825689102242720a3487c23944bca523676a7f"
+  integrity sha512-ckaEnEzO0LQCYEuPvAn93qWlg7p+ituTBNYy5DrEyFfQD6iYnN/8/upElzTcAcsGF/othVZlIGhOscYnnMgeGQ==
+  dependencies:
+    "@tanbo/di" "^1.1.3"
+    "@tanbo/stream" "^1.1.8"
+    immer "^9.0.12"
+
+"@textbus/editor@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npmmirror.com/@textbus/editor/-/editor-2.2.0.tgz#8b36e36e401e05d6ddbcedc6ccb026b608a9f82d"
+  integrity sha512-/yW/xst8oBIsdRLEbFGSyVcqhFa218+oVKV3Hde0TmUlzQ01DAjNXW4KencveIMLhNl/ksvF8gHZHhZIqN0y6g==
+  dependencies:
+    "@tanbo/bezier" "^1.0.1"
+    "@tanbo/color" "^0.1.1"
+    "@tanbo/color-picker" "^0.1.4"
+    "@tanbo/css-themes" "^0.0.1"
+    "@tanbo/di" "^1.1.3"
+    "@tanbo/stream" "^1.1.8"
+    "@textbus/browser" "^2.2.0"
+    "@textbus/collaborate" "^2.2.0"
+    "@textbus/core" "^2.2.0"
+    katex "^0.16.0"
+    prismjs "^1.23.0"
+
 "@types/json-schema@^7.0.9":
   version "7.0.11"
   resolved "https://registry.npmmirror.com/@types/json-schema/-/json-schema-7.0.11.tgz"
@@ -679,6 +760,11 @@ commander@^2.20.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
+
+commander@^8.0.0:
+  version "8.3.0"
+  resolved "https://registry.npmmirror.com/commander/-/commander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
+  integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
 
 compress-commons@^2.1.1:
   version "2.1.1"
@@ -1528,6 +1614,11 @@ ignore@^5.1.1, ignore@^5.2.0:
   resolved "https://registry.npmmirror.com/ignore/-/ignore-5.2.0.tgz"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
 
+immer@^9.0.12:
+  version "9.0.15"
+  resolved "https://registry.npmmirror.com/immer/-/immer-9.0.15.tgz#0b9169e5b1d22137aba7d43f8a81a495dd1b62dc"
+  integrity sha512-2eB/sswms9AEUSkOm4SbV5Y7Vmt/bKRwByd52jfLkW4OLYeaTP3EEiJ9agqU0O/tq6Dk62Zfj+TJSqfm1rLVGQ==
+
 import-fresh@^3.0.0, import-fresh@^3.2.1:
   version "3.3.0"
   resolved "https://registry.npmmirror.com/import-fresh/-/import-fresh-3.3.0.tgz"
@@ -1699,6 +1790,11 @@ isexe@^2.0.0:
   resolved "https://registry.npmmirror.com/isexe/-/isexe-2.0.0.tgz"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
+isomorphic.js@^0.2.4:
+  version "0.2.5"
+  resolved "https://registry.npmmirror.com/isomorphic.js/-/isomorphic.js-0.2.5.tgz#13eecf36f2dba53e85d355e11bf9d4208c6f7f88"
+  integrity sha512-PIeMbHqMt4DnUP3MA/Flc0HElYjMXArsw1qwJZcm9sqR8mq3l8NYizFMty0pWwE/tzIGH3EKK5+jes5mAr85yw==
+
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
   resolved "https://registry.npmmirror.com/js-tokens/-/js-tokens-4.0.0.tgz"
@@ -1733,6 +1829,13 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
+katex@^0.16.0:
+  version "0.16.2"
+  resolved "https://registry.npmmirror.com/katex/-/katex-0.16.2.tgz#9d3dc2a7e65fb8aa31101b1f86888ec40eed7b24"
+  integrity sha512-70DJdQAyh9EMsthw3AaQlDyFf54X7nWEUIa5W+rq8XOpEk//w5Th7/8SqFqpvi/KZ2t6MHUj4f9wLmztBmAYQA==
+  dependencies:
+    commander "^8.0.0"
+
 lazystream@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/lazystream/-/lazystream-1.0.1.tgz#494c831062f1f9408251ec44db1cba29242a2638"
@@ -1747,6 +1850,13 @@ levn@^0.4.1:
   dependencies:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
+
+lib0@^0.2.42, lib0@^0.2.49:
+  version "0.2.52"
+  resolved "https://registry.npmmirror.com/lib0/-/lib0-0.2.52.tgz#f07c975673ab3273e676712860d941f996e5fe79"
+  integrity sha512-CjxlM7UgICfN6b2OPALBXchIBiNk6jE+1g7JP8ha+dh1xKRDSYpH0WQl1+rMqCju49xUnwPG34v4CR5/rPOZhg==
+  dependencies:
+    isomorphic.js "^0.2.4"
 
 load-json-file@^4.0.0:
   version "4.0.0"
@@ -2196,6 +2306,11 @@ prettier@^2.7.1:
   resolved "https://registry.npmmirror.com/prettier/-/prettier-2.7.1.tgz"
   integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
 
+prismjs@^1.23.0:
+  version "1.29.0"
+  resolved "https://registry.npmmirror.com/prismjs/-/prismjs-1.29.0.tgz#f113555a8fa9b57c35e637bba27509dcf802dd12"
+  integrity sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==
+
 process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
@@ -2253,6 +2368,11 @@ readdirp@~3.6.0:
   integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
   dependencies:
     picomatch "^2.2.1"
+
+reflect-metadata@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.npmmirror.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+  integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
 
 regenerator-runtime@^0.13.4:
   version "0.13.9"
@@ -2797,10 +2917,24 @@ xterm@^4.19.0:
   resolved "https://registry.npmmirror.com/xterm/-/xterm-4.19.0.tgz"
   integrity sha512-c3Cp4eOVsYY5Q839dR5IejghRPpxciGmLWWaP9g+ppfMeBChMeLa1DCA+pmX/jyDZ+zxFOmlJL/82qVdayVoGQ==
 
+y-protocols@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npmmirror.com/y-protocols/-/y-protocols-1.0.5.tgz#91d574250060b29fcac8f8eb5e276fbad594245e"
+  integrity sha512-Wil92b7cGk712lRHDqS4T90IczF6RkcvCwAD0A2OPg+adKmOe+nOiT/N2hvpQIWS3zfjmtL4CPaH5sIW1Hkm/A==
+  dependencies:
+    lib0 "^0.2.42"
+
 yallist@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmmirror.com/yallist/-/yallist-4.0.0.tgz"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
+
+yjs@^13.5.39:
+  version "13.5.42"
+  resolved "https://registry.npmmirror.com/yjs/-/yjs-13.5.42.tgz#949f7d091ded6e2621a5798982a9631b79e1b62c"
+  integrity sha512-3aYBPeUSBUCs/vCOYolbyzhsQ6IDm1DeJgfhHVbW+6kq8YhWjkk2SUhYtBxd3lZPNsqmJGzYH9shKINhSVbEzw==
+  dependencies:
+    lib0 "^0.2.49"
 
 zip-stream@^2.1.2:
   version "2.1.3"
