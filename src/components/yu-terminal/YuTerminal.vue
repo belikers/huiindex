@@ -409,7 +409,7 @@ onMounted(() => {
         `<a href="//github.com/belikers/huiindex" target='_blank'> GitHub Open Source</a>`
     );
     terminal.writeTextOutput(
-      `Author <a href="//github.com/belikers" target="_blank">coder_remohjh</a>` +
+      `Author <a href="//github.com/belikers" target="_blank">coder_belikers</a>` +
         `: please input 'help' to enjoy`
     );
     terminal.writeTextOutput("<br/>");
