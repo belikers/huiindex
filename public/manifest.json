@@ -3,7 +3,7 @@
   "name": "huiIndex",
   "version": "0.0.0",
   "description": "huiIndex",
-  "author": "remohjh <1251683316@qq.com>",
+  "author": "belikers <1251683316@qq.com>",
   "chrome_url_overrides" : {
     "newtab": "index.html"
   },
