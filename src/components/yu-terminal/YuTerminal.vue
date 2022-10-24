@@ -457,7 +457,7 @@ defineExpose({
   :deep(.ant-collapse-icon-position-right
     > .ant-collapse-item
     > .ant-collapse-header) {
-  color: white;
+  color: v-bind("configStore.$state.fontColor");
   padding: 0;
 }
 
@@ -490,12 +490,12 @@ defineExpose({
 }
 
 .command-input-prompt {
-  color: white;
+  color: v-bind("configStore.$state.fontColor");
   background: transparent;
 }
 
 .terminal-row {
-  color: white;
+  color: v-bind("configStore.$state.fontColor");
   font-size: 16px;
   font-family: courier-new, courier, monospace;
 }
