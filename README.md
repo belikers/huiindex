@@ -27,7 +27,7 @@
 - 新增了天气命令
 - 新增修改命令行文字颜色的命令
 - 新增了text命令，用于在线文本编辑
-- 将Vite2更新到了Vite3
+
 
 ### 1 分钟上手使用
 
@@ -112,7 +112,7 @@ history
 主要技术：
 
 - Vue 3
-- Vite 3
+- Vite 2
 - Ant Design Vue 3 组件库
 - Pinia 2 状态管理
 - TypeScript 类型控制
