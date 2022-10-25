@@ -1,7 +1,7 @@
 <template>
   <div ref="editorContainer" class="first"></div>
 </template>
-<script>
+<script lang="ts">
 import { defineComponent, ref, onMounted } from "vue";
 import { createEditor } from "@textbus/editor";
 import "@textbus/editor/bundles/textbus.min.css";
