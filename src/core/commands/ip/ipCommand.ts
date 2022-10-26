@@ -16,7 +16,7 @@ const ipCommand: CommandType = {
   action(options, terminal) {
     const output: ComponentOutputType = {
       type: "component",
-      component: defineAsyncComponent(() => import("./Ipaddress.vue")),
+      component: defineAsyncComponent(() => import("./IpAddress.vue")),
       props: {},
     };
     terminal.writeResult(output);
