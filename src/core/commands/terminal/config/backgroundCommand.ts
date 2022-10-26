@@ -1,6 +1,5 @@
 import { CommandType } from "../../../command";
 import { useTerminalConfigStore } from "./terminalConfigStore";
-import axios from "axios";
 import myAxios from "../../../../plugins/myAxios";
 
 /**

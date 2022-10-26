@@ -4,10 +4,12 @@
     <div>
       剩余：{{ leftTime }} 秒
       <template v-if="leftTime > 0">
-        <a-button v-if="start" size="small" ghost danger @click="toggleStart">
+        <a-button v-if="start" size="middle" ghost danger @click="toggleStart">
           暂停
         </a-button>
-        <a-button v-else size="small" ghost @click="toggleStart">继续</a-button>
+        <a-button v-else size="middle" ghost @click="toggleStart"
+          >继续</a-button
+        >
       </template>
     </div>
   </div>

@@ -1,5 +1,4 @@
 import { CommandType } from "../../../command";
-import { getSingleMusic } from "../../relax/music/musicApi";
 import { userRegister } from "../userApi";
 
 /**

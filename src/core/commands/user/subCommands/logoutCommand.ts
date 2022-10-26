@@ -1,5 +1,5 @@
 import { CommandType } from "../../../command";
-import { userLogin, userLogout, userRegister } from "../userApi";
+import { userLogout } from "../userApi";
 import { useUserStore } from "../userStore";
 import { LOCAL_USER } from "../userConstant";
 
